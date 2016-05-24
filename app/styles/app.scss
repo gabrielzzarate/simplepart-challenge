@@ -1,0 +1,21 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+img {
+  max-width: 100%;
+}
+
+@import "header";
+@import "main-content";
+
+//global styles
+
+body {
+	padding: 0px;
+}

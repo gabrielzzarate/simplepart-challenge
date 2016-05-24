@@ -1,0 +1,32 @@
+//colors
+$header-white: rgb(254, 255, 255);
+$subaru-blue: rgb(60, 96, 163);
+$subaru-black: rgb(66, 70, 75);
+
+.header-container {
+  max-width: 100%;
+
+  background-color: $header-white;
+
+}
+
+.wrapper-head {
+	margin-left: 25px;
+}
+
+
+.welcome-banner {
+
+	color: $subaru-blue;
+	font-size: 11px;
+}
+
+.main-nav {
+
+	color: $subaru-black;
+
+	.child-nav {
+		display: inline-block;
+	}
+
+}
