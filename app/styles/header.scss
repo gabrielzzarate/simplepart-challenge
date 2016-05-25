@@ -48,6 +48,7 @@ $subaru-black: rgb(66, 70, 75);
 .social-nav{
 	.nav-left{
 		display: inline-block;
+		padding: 0px;
 	}
 	ul {
 		list-style: none;
@@ -56,13 +57,51 @@ $subaru-black: rgb(66, 70, 75);
 		display: inline-block;
 		padding: 3px;
 		margin: 5px;
-		border-left: 1px solid gray;
-		border-right: 1px solid gray;
+		//border-left: 1px solid gray;
+		//border-right: 1px solid gray;
 	}
 }
 
 .nav-right {
 	float: right;
+	margin-right: 20px;
+	margin-bottom: 0px;
 	display: inline-block;
 	list-style: none;
+
+}
+
+.fb-btn {
+	 background: #4c69ba;
+   background: linear-gradient(#4c69ba, #3b55a0);
+	color: white;
+	border: none;
+}
+
+.search-box {
+	background-color: rgb(51, 51, 52);
+	padding: 0px;
+	border-radius: 3px 3px 0 0;
+	border: none;
+	margin: 0px;
+
+
+
+	label {
+		color: white;
+		padding: 10px;
+	}
+	input {
+		border-radius: none;
+		padding: 5px;
+		margin-right: 0px;
+		border-right: 0px;
+
+	}
+	button {
+		background-color: rgb(199, 199, 201);
+		color: $subaru-blue;
+		margin-left: 0px;
+		border-left: 0px;
+	}
 }

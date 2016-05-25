@@ -1,11 +1,56 @@
 
 $subaru-gray: rgb(69, 70, 71);
 
-.main-content {
+.main {
 	background-color: $subaru-gray;
+
+}
+
+.main-content {
+	width: 95%;
+	margin: 0 auto;
 }
 
 
+
 .car-banner {
+	display: block;
+
+	//width: 95%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+
+}
+.breadcrumbs {
+	margin: 0px;
+	background-color: rgb(176, 177, 178);
+	//width: 95%;
+	margin-left: auto;
+  margin-right: auto;
+
+	p {
+		display: inline-block;
+		margin: 0px;
+		padding: 0px 20px 0px 20px;
+	}
+}
+
+.content {
+	background-color: rgb(254, 255, 255);
+}
+
+.dealer-select {
+	width: 95%;
 	margin: 0 auto;
+	h2 {
+		display: inline-block;
+		margin: 0px;
+		color: white;
+	}
+}
+
+.dealer-banner {
+	background-color: rgb(29, 75, 131);
+
 }
