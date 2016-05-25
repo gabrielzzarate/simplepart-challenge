@@ -1,0 +1,54 @@
+
+
+// dealer.scss
+$subaru-blue: rgb(60, 96, 163);
+
+.dealer-detail {
+	border-top: 1px solid black;
+	margin: 2px 0px 0px 2px;
+
+	.dealer-map {
+		margin-top: 25px;
+		margin-left: 8px;
+		display: inline-block;
+	}
+	.contact-details {
+		display: inline-block;
+		margin-left: 5px;
+	}
+	.listing-number {
+		position: relative;
+		top: -130px;
+	}
+	.address {
+		display: inline-block;
+		margin-top: 10px;
+
+		.dealer-name {
+			margin: 0px;
+			margin-bottom: 13px;
+			font-weight: normal;
+		}
+		.phone-number {
+			font-weight: normal;
+			margin-top: 0px;
+		}
+	}
+}
+
+.review-container {
+	margin-left: 235px;
+
+	.review-heading {
+		margin: 0px;
+		font-weight: normal;
+	}
+	.review-link {
+		float: right;
+		text-decoration: none;
+		color: $subaru-blue;
+		&:hover {
+			color: $subaru-blue;
+		}
+	}
+}

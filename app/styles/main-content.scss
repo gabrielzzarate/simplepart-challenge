@@ -7,7 +7,7 @@ $subaru-gray: rgb(69, 70, 71);
 }
 
 .main-content {
-	width: 95%;
+	max-width: 95%;
 	margin: 0 auto;
 }
 
@@ -15,8 +15,8 @@ $subaru-gray: rgb(69, 70, 71);
 
 .car-banner {
 	display: block;
+	width: 100%;
 
-	//width: 95%;
 	margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
@@ -43,14 +43,39 @@ $subaru-gray: rgb(69, 70, 71);
 .dealer-select {
 	width: 95%;
 	margin: 0 auto;
-	h2 {
+	.dealer-text {
 		display: inline-block;
-		margin: 0px;
+		margin: 10px 10px 10px 20px;
 		color: white;
+
+
 	}
 }
 
 .dealer-banner {
 	background-color: rgb(29, 75, 131);
 
+
+
+}
+
+.dealer-search {
+	background-color: rgb(236, 237, 238);
+	padding: 30px;
+
+
+	.zip-search {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.dealer-listing {
+
+	max-width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+	h3 {
+		display: inline-block;
+	}
 }
