@@ -26,27 +26,42 @@ $subaru-blue: rgb(60, 96, 163);
 
 		.dealer-name {
 			margin: 0px;
-			margin-bottom: 13px;
+			margin-bottom: 38px;
 			font-weight: normal;
+		}
+		.dealer-address {
+			margin-top: 0px;
 		}
 		.phone-number {
 			font-weight: normal;
 			margin-top: 0px;
 		}
 	}
+
+}
+.dealer-select-btn {
+	margin-left: 430px;
+	color: white;
+	background-color: rgb(62, 99, 161);
+	border-radius: 7%;
+	font-size: 20px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
 }
 
 .review-container {
 	margin-left: 235px;
+	margin-bottom: 15px;
 
 	.review-heading {
 		margin: 0px;
 		font-weight: normal;
 	}
 	.review-link {
-		float: right;
+		margin-left: 620px;
+
 		text-decoration: none;
-		color: $subaru-blue;
+		color: black;
 		&:hover {
 			color: $subaru-blue;
 		}
