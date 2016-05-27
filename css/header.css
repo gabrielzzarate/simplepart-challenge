@@ -1,0 +1,112 @@
+.header-container {
+  max-width: 100%;
+  background-color: #feffff;
+  border-bottom: 2px solid black;
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.75); }
+
+.wrapper-head {
+  margin-left: 25px; }
+
+.welcome-banner {
+  color: #153780;
+  font-size: 11px;
+  margin-bottom: 0px; }
+
+.main-heading {
+  margin-left: 12px;
+  margin-bottom: 10px; }
+
+.home-btn {
+  height: 22px;
+  background-color: #3c60a4;
+  border-radius: 3px;
+  border: none;
+  position: relative;
+  bottom: -2px; }
+  .home-btn img {
+    margin: 0px; }
+
+.main-nav {
+  color: #42464b; }
+  .main-nav .child-nav {
+    display: inline-block;
+    margin-left: 10px; }
+    .main-nav .child-nav span {
+      border-top: 1.5px solid gray;
+      margin: 5px;
+      padding: 5px;
+      font-style: italic; }
+      .main-nav .child-nav span a {
+        text-decoration: none;
+        color: gray; }
+        .main-nav .child-nav span a:hover {
+          color: black;
+          border-color: black; }
+
+.social-nav .nav-left {
+  display: inline-block;
+  padding: 0px; }
+.social-nav ul {
+  list-style: none;
+  margin-bottom: 3px; }
+.social-nav li {
+  display: inline-block;
+  padding: 3px;
+  margin: 5px; }
+
+.nav-left li {
+  border-left: 1px solid #e4e5e6;
+  border-right: 1px solid #e4e5e6;
+  margin-bottom: 3px; }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid black;
+  position: relative;
+  right: -70px;
+  top: -23px; }
+
+.nav-right {
+  float: right;
+  margin-right: 26px;
+  margin-bottom: 0px;
+  display: inline-block;
+  list-style: none; }
+
+.fb-btn {
+  background: #4c69ba;
+  background: -webkit-linear-gradient(#4c69ba, #3b55a0);
+  background: linear-gradient(#4c69ba, #3b55a0);
+  color: white;
+  border: none; }
+
+.search-box {
+  background-color: #333334;
+  padding: 0px;
+  border-radius: 3px 3px 0 0;
+  border: none;
+  margin: 0px;
+  padding-bottom: 5px;
+  position: relative;
+  bottom: -3px; }
+  .search-box label {
+    color: white;
+    padding: 10px; }
+  .search-box input {
+    border-radius: none;
+    padding: 5px;
+    width: 150px;
+    margin-right: 0px;
+    border-right: 0px; }
+    .search-box input::-webkit-input-placeholder {
+      font-size: 9px; }
+  .search-box button {
+    background-color: #9fa0a0;
+    color: #3c60a3;
+    margin-left: 0px;
+    border-left: 0px; }
+
+/*# sourceMappingURL=header.css.map */

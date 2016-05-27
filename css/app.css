@@ -1,0 +1,307 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Helvetica"; }
+
+img {
+  max-width: 100%; }
+
+.header-container {
+  max-width: 100%;
+  background-color: #feffff;
+  border-bottom: 2px solid black;
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.75); }
+
+.wrapper-head {
+  margin-left: 25px; }
+
+.welcome-banner {
+  color: #153780;
+  font-size: 11px;
+  margin-bottom: 0px; }
+
+.main-heading {
+  margin-left: 12px;
+  margin-bottom: 10px; }
+
+.home-btn {
+  height: 22px;
+  background-color: #3c60a4;
+  border-radius: 3px;
+  border: none;
+  position: relative;
+  bottom: -2px; }
+  .home-btn img {
+    margin: 0px; }
+
+.main-nav {
+  color: #42464b; }
+  .main-nav .child-nav {
+    display: inline-block;
+    margin-left: 10px; }
+    .main-nav .child-nav span {
+      border-top: 1.5px solid gray;
+      margin: 5px;
+      padding: 5px;
+      font-style: italic; }
+      .main-nav .child-nav span a {
+        text-decoration: none;
+        color: gray; }
+        .main-nav .child-nav span a:hover {
+          color: black;
+          border-color: black; }
+
+.social-nav .nav-left {
+  display: inline-block;
+  padding: 0px; }
+.social-nav ul {
+  list-style: none;
+  margin-bottom: 3px; }
+.social-nav li {
+  display: inline-block;
+  padding: 3px;
+  margin: 5px; }
+
+.nav-left li {
+  border-left: 1px solid #e4e5e6;
+  border-right: 1px solid #e4e5e6;
+  margin-bottom: 3px; }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid black;
+  position: relative;
+  right: -70px;
+  top: -23px; }
+
+.nav-right {
+  float: right;
+  margin-right: 26px;
+  margin-bottom: 0px;
+  display: inline-block;
+  list-style: none; }
+
+.fb-btn {
+  background: #4c69ba;
+  background: -webkit-linear-gradient(#4c69ba, #3b55a0);
+  background: linear-gradient(#4c69ba, #3b55a0);
+  color: white;
+  border: none; }
+
+.search-box {
+  background-color: #333334;
+  padding: 0px;
+  border-radius: 3px 3px 0 0;
+  border: none;
+  margin: 0px;
+  padding-bottom: 5px;
+  position: relative;
+  bottom: -3px; }
+  .search-box label {
+    color: white;
+    padding: 10px; }
+  .search-box input {
+    border-radius: none;
+    padding: 5px;
+    width: 150px;
+    margin-right: 0px;
+    border-right: 0px; }
+    .search-box input::-webkit-input-placeholder {
+      font-size: 9px; }
+  .search-box button {
+    background-color: #9fa0a0;
+    color: #3c60a3;
+    margin-left: 0px;
+    border-left: 0px; }
+
+.main {
+  background-color: #313233; }
+
+.main-content {
+  max-width: 95%;
+  margin: 0 auto; }
+
+.car-banner {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; }
+
+.breadcrumbs {
+  margin: 0px;
+  background-color: #b0b1b2;
+  margin-left: auto;
+  margin-right: auto; }
+  .breadcrumbs p {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 12px;
+    padding: 0px 20px 0px 20px; }
+
+.content {
+  background-color: #feffff; }
+
+.dealer-select {
+  width: 95%;
+  margin: 0 auto; }
+  .dealer-select .dealer-text {
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px 10px 10px 20px;
+    color: white; }
+
+.dealer-banner {
+  background-color: #1d4b83; }
+
+.dealer-search {
+  background-color: #ecedee;
+  padding: 30px;
+  max-width: 100%;
+  display: block; }
+
+.zip-search {
+  margin-left: 25%;
+  color: black; }
+  .zip-search .zip-label {
+    font-size: 18px;
+    font-weight: bold; }
+  .zip-search input {
+    width: 200px;
+    height: 40px;
+    margin-left: 5px;
+    position: relative;
+    up: -12px; }
+  .zip-search button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3e63a1;
+    border: 0.5px solid black;
+    height: 38px;
+    width: 40px;
+    position: relative;
+    left: -4px; }
+
+.dealer-listing {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 30px; }
+  .dealer-listing h3 {
+    display: inline-block; }
+
+.all-dealers-text {
+  color: black; }
+
+.dealer-detail {
+  border-top: 1px solid black;
+  margin: 15px 0px 0px 2px; }
+  .dealer-detail .dealer-map {
+    margin-top: 25px;
+    margin-left: 8px;
+    display: inline-block; }
+  .dealer-detail .contact-details {
+    display: inline-block;
+    margin-left: 5px; }
+  .dealer-detail .listing-number {
+    position: relative;
+    top: -130px; }
+  .dealer-detail .address {
+    display: inline-block;
+    margin-top: 10px; }
+    .dealer-detail .address .dealer-name {
+      margin: 0px;
+      margin-bottom: 38px;
+      font-weight: normal;
+      position: relative;
+      bottom: -6px; }
+    .dealer-detail .address .dealer-address {
+      margin-top: 0px; }
+    .dealer-detail .address .phone-number {
+      font-weight: normal;
+      margin-top: 0px; }
+
+.dealer-select-btn {
+  margin-left: 430px;
+  color: white;
+  background-color: #3e63a1;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid black; }
+
+.review-container {
+  margin-left: 235px; }
+  .review-container .review-heading {
+    margin: 0px;
+    font-weight: normal; }
+  .review-container .review-link {
+    margin-left: 620px;
+    text-decoration: none;
+    color: black; }
+    .review-container .review-link:hover {
+      color: #3c60a3; }
+
+#last-review-container {
+  padding-bottom: 25px; }
+
+.accuracy-notice {
+  background-color: #e4e5df;
+  border-top: 1px solid black; }
+
+.centered-notice {
+  width: 90%;
+  margin: 0 auto; }
+  .centered-notice .notice-icon, .centered-notice .notice {
+    display: inline-block;
+    margin: 15px 0px 15px 0px; }
+  .centered-notice .notice {
+    font-size: 11px;
+    margin-top: 0px;
+    position: relative;
+    top: -21px; }
+
+.main-footer {
+  background-color: #313233;
+  height: 90px; }
+
+.footer-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px; }
+
+.simplepart-tag {
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #828384; }
+
+.footer-logo {
+  position: relative;
+  bottom: -3px;
+  margin-left: 3px; }
+
+.footer-copyright {
+  font-size: 10px;
+  float: right;
+  color: white; }
+  .footer-copyright .policies-link {
+    color: white; }
+
+.footer-web-date {
+  margin-top: 20px;
+  color: white;
+  font-size: 11px; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  color: #42464b; }
+
+/*# sourceMappingURL=app.css.map */

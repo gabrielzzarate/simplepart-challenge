@@ -1,0 +1,79 @@
+.main {
+  background-color: #313233; }
+
+.main-content {
+  max-width: 95%;
+  margin: 0 auto; }
+
+.car-banner {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; }
+
+.breadcrumbs {
+  margin: 0px;
+  background-color: #b0b1b2;
+  margin-left: auto;
+  margin-right: auto; }
+  .breadcrumbs p {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 12px;
+    padding: 0px 20px 0px 20px; }
+
+.content {
+  background-color: #feffff; }
+
+.dealer-select {
+  width: 95%;
+  margin: 0 auto; }
+  .dealer-select .dealer-text {
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px 10px 10px 20px;
+    color: white; }
+
+.dealer-banner {
+  background-color: #1d4b83; }
+
+.dealer-search {
+  background-color: #ecedee;
+  padding: 30px;
+  max-width: 100%;
+  display: block; }
+
+.zip-search {
+  margin-left: 25%;
+  color: black; }
+  .zip-search .zip-label {
+    font-size: 18px;
+    font-weight: bold; }
+  .zip-search input {
+    width: 200px;
+    height: 40px;
+    margin-left: 5px;
+    position: relative;
+    up: -12px; }
+  .zip-search button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3e63a1;
+    border: 0.5px solid black;
+    height: 38px;
+    width: 40px;
+    position: relative;
+    left: -4px; }
+
+.dealer-listing {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 30px; }
+  .dealer-listing h3 {
+    display: inline-block; }
+
+/*# sourceMappingURL=main-content.css.map */

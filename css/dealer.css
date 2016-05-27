@@ -1,0 +1,56 @@
+.all-dealers-text {
+  color: black; }
+
+.dealer-detail {
+  border-top: 1px solid black;
+  margin: 15px 0px 0px 2px; }
+  .dealer-detail .dealer-map {
+    margin-top: 25px;
+    margin-left: 8px;
+    display: inline-block; }
+  .dealer-detail .contact-details {
+    display: inline-block;
+    margin-left: 5px; }
+  .dealer-detail .listing-number {
+    position: relative;
+    top: -130px; }
+  .dealer-detail .address {
+    display: inline-block;
+    margin-top: 10px; }
+    .dealer-detail .address .dealer-name {
+      margin: 0px;
+      margin-bottom: 38px;
+      font-weight: normal;
+      position: relative;
+      bottom: -6px; }
+    .dealer-detail .address .dealer-address {
+      margin-top: 0px; }
+    .dealer-detail .address .phone-number {
+      font-weight: normal;
+      margin-top: 0px; }
+
+.dealer-select-btn {
+  margin-left: 430px;
+  color: white;
+  background-color: #3e63a1;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid black; }
+
+.review-container {
+  margin-left: 235px; }
+  .review-container .review-heading {
+    margin: 0px;
+    font-weight: normal; }
+  .review-container .review-link {
+    margin-left: 620px;
+    text-decoration: none;
+    color: black; }
+    .review-container .review-link:hover {
+      color: #3c60a3; }
+
+#last-review-container {
+  padding-bottom: 25px; }
+
+/*# sourceMappingURL=dealer.css.map */
