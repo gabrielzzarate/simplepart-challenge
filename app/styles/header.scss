@@ -21,6 +21,19 @@ $subaru-black: rgb(66, 70, 75);
 	margin-left: 12px;
 	margin-bottom: 10px;
 }
+.home-btn {
+	height: 22px;
+
+	background-color: rgb(60, 96, 164);
+	border-radius: 3px;
+	border: none;
+	position: relative;
+	bottom: -2px;
+
+	img {
+		margin: 0px;
+	}
+}
 .main-nav {
 	color: $subaru-black;
 	.child-nav {
@@ -50,23 +63,24 @@ $subaru-black: rgb(66, 70, 75);
 	.nav-left{
 		display: inline-block;
 		padding: 0px;
-		margin-bottom: 4px;
+
 	}
 	ul {
 		list-style: none;
-
+		margin-bottom: 3px;
 	}
 	li {
 		display: inline-block;
 		padding: 3px;
 		margin: 5px;
 
+
 	}
 }
 .nav-left li {
 	border-left: 1px solid rgb(228, 229, 230);
 	border-right: 1px solid rgb(228, 229, 230);
-	margin: 6px;
+	margin-bottom: 3px;
 }
 
 .arrow-down {
@@ -103,6 +117,10 @@ $subaru-black: rgb(66, 70, 75);
 	border-radius: 3px 3px 0 0;
 	border: none;
 	margin: 0px;
+	padding-bottom: 5px;
+	position: relative;
+	bottom: -3px;
+
 
 
 
@@ -120,7 +138,7 @@ $subaru-black: rgb(66, 70, 75);
 
 	}
 	button {
-		background-color: rgb(199, 199, 201);
+		background-color: rgb(159, 160, 160);
 		color: $subaru-blue;
 		margin-left: 0px;
 		border-left: 0px;

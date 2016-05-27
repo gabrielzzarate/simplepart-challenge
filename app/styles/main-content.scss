@@ -2,7 +2,7 @@
 $subaru-gray: rgb(69, 70, 71);
 
 .main {
-	background-color: $subaru-gray;
+	background-color: rgb(49, 50, 51);
 
 }
 
@@ -24,6 +24,7 @@ $subaru-gray: rgb(69, 70, 71);
 }
 .breadcrumbs {
 	margin: 0px;
+
 	background-color: rgb(176, 177, 178);
 	//width: 95%;
 	margin-left: auto;
@@ -31,7 +32,10 @@ $subaru-gray: rgb(69, 70, 71);
 
 	p {
 		display: inline-block;
-		margin: 0px;
+		font-size: 12px;
+		font-weight: bold;
+		margin: 5px;
+		margin-left: 12px;
 		padding: 0px 20px 0px 20px;
 	}
 }
@@ -44,6 +48,7 @@ $subaru-gray: rgb(69, 70, 71);
 	width: 95%;
 	margin: 0 auto;
 	.dealer-text {
+		font-size: 25px;
 		display: inline-block;
 		margin: 10px 10px 10px 20px;
 		color: white;
@@ -62,13 +67,43 @@ $subaru-gray: rgb(69, 70, 71);
 .dealer-search {
 	background-color: rgb(236, 237, 238);
 	padding: 30px;
+	max-width: 100%;
+	display: block;
 
+}
 
 	.zip-search {
-		margin-left: auto;
-		margin-right: auto;
-	}
+		margin-left: 25%;
+
+		color: black;
+		.zip-label {
+			font-size: 18px;
+			font-weight: bold;
+		}
+		input {
+			width: 200px;
+			height: 40px;
+			margin-left: 5px;
+			position: relative;
+			up: -12px;
+
+		}
+
+		button {
+			color: white;
+			font-size: 15px;
+			font-weight: bold;
+			background-color: rgb(62, 99, 161);
+			border: 0.5px solid black;
+			height: 38px;
+			width: 40px;
+			position: relative;
+			left: -4px;
+
+		}
+
 }
+
 
 .dealer-listing {
 

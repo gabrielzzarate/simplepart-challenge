@@ -1,0 +1,72 @@
+
+// footer styles
+
+.footer {
+
+}
+
+.accuracy-notice {
+	background-color: rgb(228, 229, 223);
+	border-top: 1px solid black;
+}
+
+.centered-notice {
+	width: 90%;
+	margin: 0 auto;
+
+
+	.notice-icon, .notice {
+		display: inline-block;
+		margin: 15px 0px 15px 0px;
+	}
+	.notice {
+		font-size: 11px;
+		margin-top: 0px;
+		position: relative;
+		top: -21px;
+
+
+	}
+}
+
+.main-footer {
+	background-color: rgb(49, 50, 51);
+	height: 90px;
+
+}
+.footer-content {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 15px;
+
+
+}
+.simplepart-tag{
+
+		font-size: 9px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: rgb(130, 131, 132);
+	}
+
+.footer-logo {
+	position: relative;
+	bottom: -3px;
+	margin-left: 3px;
+}
+
+.footer-copyright {
+	font-size: 10px;
+	float: right;
+	color: white;
+
+	.policies-link {
+		color: white;
+	}
+}
+.footer-web-date {
+	margin-top: 20px;
+	color: white;
+	font-size: 11px;
+
+}
