@@ -7,6 +7,7 @@ $subaru-black: rgb(66, 70, 75);
   max-width: 100%;
   background-color: $header-white;
   border-bottom: 2px solid black;
+  margin-bottom: 0px;
 	box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
 }
 .wrapper-head {
@@ -60,6 +61,7 @@ $subaru-black: rgb(66, 70, 75);
 
 }
 .social-nav{
+	margin-bottom: 4px;
 	.nav-left{
 		display: inline-block;
 		padding: 0px;
@@ -80,20 +82,20 @@ $subaru-black: rgb(66, 70, 75);
 .nav-left li {
 	border-left: 1px solid rgb(228, 229, 230);
 	border-right: 1px solid rgb(228, 229, 230);
-	margin-bottom: 3px;
+	//margin-bottom: 3px;
 }
 
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
+// .arrow-down {
+//   width: 0;
+//   height: 0;
+//   border-left: 4px solid transparent;
+//   border-right: 4px solid transparent;
 
-  border-top: 4px solid black;
-  position: relative;
-  right: -70px;
-  top: -23px;
-  }
+//   border-top: 4px solid black;
+//   position: relative;
+//   right: -70px;
+//   top: -23px;
+//   }
 
 .nav-right {
 	float: right;
@@ -109,6 +111,21 @@ $subaru-black: rgb(66, 70, 75);
    background: linear-gradient(#4c69ba, #3b55a0);
 	color: white;
 	border: none;
+	position: relative;
+	bottom: -4px;
+	border-radius: 4px;
+	padding: 1px 5px 1px 5px;
+
+	.like-text {
+		position: relative;
+		top: -3px;
+	}
+}
+.followers-icon {
+	height: 25px;
+	position: relative;
+	top: 8px;
+
 }
 
 .search-box {
@@ -133,14 +150,17 @@ $subaru-black: rgb(66, 70, 75);
 		padding: 5px;
 		width: 150px;
 		margin-right: 0px;
-		border-right: 0px;
-		&::-webkit-input-placeholder { font-size: 9px; }
+		border: none;
+		&::-webkit-input-placeholder { font-size: 10px; }
 
 	}
 	button {
 		background-color: rgb(159, 160, 160);
 		color: $subaru-blue;
-		margin-left: 0px;
-		border-left: 0px;
+		position: relative;
+		border: none;
+		left: -3.3px;
+		bottom: -2px;
+		height: 23px;
 	}
 }
